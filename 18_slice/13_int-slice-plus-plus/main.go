@@ -28,7 +28,7 @@ func main() {
 	// Need to append even though capacity is 4
 	myslice = append(myslice, 14)
 	fmt.Println("Capacity:", cap(myslice), "Length:", len(myslice))
-	// Add 1
+	// Add 1 to number at index 0
 	myslice[0]++
 	fmt.Println(myslice[0])
 	myslices[0] = myslice
